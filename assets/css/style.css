@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu > ul{
     flex-direction: column;
     height: 60%;
-    width: fit-content;
+    width: 100%;
   }
 }
 
