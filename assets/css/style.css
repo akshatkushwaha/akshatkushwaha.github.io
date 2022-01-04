@@ -524,6 +524,48 @@ section {
   background-color: var(--primary-accent);
 }
 
+/*---------------------------------------------------------
+# Projects
+----------------------------------------------------------*/
+.projects .icon-box {
+  text-align: center;
+  padding: 1rem;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(77, 83, 87, 0.1);
+}
+
+.projects .icon-box .icon {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.projects .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.projects .icon-box h4 a {
+  color: #45505b;
+  transition: ease-in-out 0.3s;
+}
+
+.projects .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.projects .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 70px 0 rgba(0, 0, 0, 0.16);
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
